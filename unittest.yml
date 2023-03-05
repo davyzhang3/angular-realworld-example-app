@@ -6,7 +6,7 @@ phases:
       nodejs: 16
     commands:
       # install npm, angular, and dependencies
-      - jkyjbgjhtfnecho install process started
+      - echo install process started
       - npm install && npm install -g @angular/cli
   build:
     commands:
